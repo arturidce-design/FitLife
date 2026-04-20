@@ -28,10 +28,11 @@ user_height = float(input("Введите ваш рост в метрах: "))
 
 #  Вывод результатов.
 print(f"\n{'=' * 40}\n")
-print(f"Спасибо, {user_name}! Вот ваши результаты:\n")
-print(f"Ваш Индекс Массы Тела (BMI): {calculate_bmi(user_weight, user_height)}\n")
-print(f"Рекомендуемое количество воды в день: \
-    {calculate_water_norm(user_weight)} литров\n")
+print(f"Спасибо, {user_name}! Вот ваши результаты:")
+print("Ваш Индекс Массы Тела (BMI): "
+      f"{calculate_bmi(user_weight, user_height)}")
+print("Рекомендуемое количество воды в день: "
+      f"{calculate_water_norm(user_weight)} литров")
 print(f"\n{'=' * 40}\n")
-print("Благодарим за использование калькулятора здоровья FitLife! \
-    Берегите себя и будьте здоровы!")
+print("Благодарим за использование калькулятора здоровья FitLife! "
+      "Берегите себя и будьте здоровы!")
