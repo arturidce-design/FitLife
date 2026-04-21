@@ -5,7 +5,8 @@ sys.stdout.reconfigure(encoding="utf-8")
 
 WATER_PER_KG = 30
 LITERS_IN_ML = 1000
-OUTPUT_SEPARATOR = "\n" + "=" * 40 + "\n"
+SYMBOL_MULTIPLIER = "=" * 40
+OUTPUT_SEPARATOR = f"\n{SYMBOL_MULTIPLIER}\n"
 
 
 def calculate_bmi(weight, height):
@@ -50,6 +51,6 @@ print(
 )
 print(OUTPUT_SEPARATOR)
 print(
-    "Благодарим за использование калькулятора здоровья FitLife!\n",
-    "Берегите себя и будьте здоровы!",
+    "Благодарим за использование калькулятора здоровья FitLife!\n"
+    "Берегите себя и будьте здоровы!"
 )
